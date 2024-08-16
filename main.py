@@ -11,7 +11,7 @@ def display_time():
 #Sidebar for navigation
 
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Home, "About"])
+page = st.sidebar.radio("Go to", ["Home", "About"])
 
 #Homepage
 
