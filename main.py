@@ -9,13 +9,14 @@ def display_time():
   return current_time
 
 #button for fun!
+x = 0
 def cookie_clicker():
   st.button("Eat your cookies", type="primary")
-  x = 0
   if st.button("cookie clicker"):
     x+=1
     st.write(x)
-    
+  else:
+    x = 0
 
 #Sidebar for navigation
 
