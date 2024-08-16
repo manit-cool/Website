@@ -8,6 +8,15 @@ def display_time():
   current_time = now.strftime("%H:%M:%S")
   return current_time
 
+#button for fun!
+def cookie_clicker():
+  st.button("Eat your cookies", type="primary")
+  x = 0
+  if st.button("cookie clicker"):
+    x+=1
+    st.write(x)
+    
+
 #Sidebar for navigation
 
 st.sidebar.title("Navigation")
@@ -21,7 +30,7 @@ if page=="Home":
 
   #Display current time
   st.write(f"### Current time: {display_time()}")
-
+  cookie_clicker()
 #About page
 
 elif page == "About":
